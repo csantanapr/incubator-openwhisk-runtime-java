@@ -32,4 +32,5 @@ git clone https://github.com/apache/incubator-openwhisk-utilities.git
 git clone https://github.com/adobe-apiplatform/incubator-openwhisk.git openwhisk
 cd openwhisk
 git checkout akka-client-keepalive
+
 ./tools/travis/setup.sh
