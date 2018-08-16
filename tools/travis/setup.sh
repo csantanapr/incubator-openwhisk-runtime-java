@@ -29,6 +29,7 @@ cd $HOMEDIR
 git clone https://github.com/apache/incubator-openwhisk-utilities.git
 
 # clone main openwhisk repo. for testing purposes
-git clone --depth=1 https://github.com/apache/incubator-openwhisk.git openwhisk
+git clone https://github.com/adobe-apiplatform/incubator-openwhisk.git openwhisk
 cd openwhisk
+git checkout akka-client-keepalive
 ./tools/travis/setup.sh
